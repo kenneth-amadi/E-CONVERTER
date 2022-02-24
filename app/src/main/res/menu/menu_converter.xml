@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<!--item
+		android:id="@+id/txt"
+		android:clickable="true"
+		android:title="Converter Menu"
+		app:actionViewClass="android.widget.TextView"
+		app:showAsAction="ifRoom|withText" /-->
+	
+	<item
+		android:id="@+id/check1"
+		android:checkable="true"
+		android:title="Standard Format"
+		app:showAsAction="withText" />
+
+	<!--item
+		android:id="@+id/check2"
+		android:checkable="true"
+		android:title="Another Action"
+		app:showAsAction="always|withText" /-->
+	
+	<!--item
+		android:id="@+id/btn3"
+		android:clickable="false"
+		android:background="#ffaf0f"
+		android:title="Standard Form3"
+		app:actionViewClass="android.widget.Button"
+		app:showAsAction="ifRoom|withText" /-->
+	
+	<!--item
+		android:id="@+id/check3"
+		android:checkable="true"
+		android:title="Standard Form3"
+		app:actionViewClass="android.widget.CheckBox"
+		app:showAsAction="ifRoom|withText" /-->
+</menu>

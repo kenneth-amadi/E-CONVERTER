@@ -1,0 +1,12 @@
+DYNAMIC
+Pascal-second(1),
+Poise(0.1),
+Pound_per_foot_hour(4.133789*Math.pow(10,−4)),
+Pound_per_foot_second(1.488164),
+Pound-force_second_per_square_foot	(47.88026),
+Pound-force_second_per_square_inch(6894.757);
+
+KINEMATIC
+Square_foot_per_second	(0.09290304),
+Square_metre_per_second(1),
+Stokes(Math.pow(10,−4));

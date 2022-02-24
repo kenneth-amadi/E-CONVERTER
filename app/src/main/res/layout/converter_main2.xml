@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#E9E5BA"
+	android:orientation="vertical"
+	android:paddingTop="20dp">
+
+	<com.google.android.material.card.MaterialCardView
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_marginLeft="@dimen/spacing_large"
+		android:layout_marginRight="@dimen/spacing_large"
+		android:layout_marginBottom="40dp"
+		android:background="@android:color/white"
+		app:cardCornerRadius="10dp"
+		app:cardElevation="7dp">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#ED88E0">
+
+			<View
+				android:id="@+id/vt"
+				android:background="#FF0078"
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:layout_alignParentTop="true"
+				android:layout_marginBottom="15dp"/>
+
+			<View
+				android:id="@+id/vl"
+				android:background="#FF0078"
+				android:layout_height="match_parent"
+				android:layout_width="2dp"
+				android:layout_alignParentStart="true"/>
+
+			<HorizontalScrollView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_centerInParent="true"
+				android:scrollbars="none"
+				android:layout_marginLeft="4dp"
+				android:layout_marginRight="4dp">
+
+				<TextView
+					android:id="@+id/txt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:hint="@string/output_value"
+					android:textSize="28sp"
+					android:fontFamily="sans-serif-light"
+					android:textColor="#296BF0"
+					android:shadowColor="#A8741E"/>
+
+			</HorizontalScrollView>
+
+			<View
+				android:id="@+id/vr"
+				android:background="#FF0078"
+				android:layout_height="match_parent"
+				android:layout_width="2dp"
+				android:layout_alignParentEnd="true"/>
+
+			<View
+				android:id="@+id/vb"
+				android:background="#FF0078"
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_marginTop="15dp"/>
+
+		</RelativeLayout>
+
+	</com.google.android.material.card.MaterialCardView>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:scrollbars="none"
+		android:paddingBottom="20dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<com.google.android.material.card.MaterialCardView
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginLeft="@dimen/spacing_large"
+				android:layout_marginRight="@dimen/spacing_large"
+				android:layout_marginBottom="60dp"
+				android:background="@android:color/white"
+				app:cardCornerRadius="10dp"
+				app:cardElevation="7dp">
+
+				<RelativeLayout
+					android:layout_height="50dp"
+					android:layout_width="match_parent"
+					android:background="#ED88E0"
+					android:layout_marginBottom="55dp">
+
+					<View
+						android:id="@+id/vtop"
+						android:background="#FF0078"
+						android:layout_height="2dp"
+						android:layout_width="match_parent"
+						android:layout_alignParentTop="true"
+						android:layout_marginBottom="15dp"/>
+
+					<View
+						android:id="@+id/vleft"
+						android:background="#FF0078"
+						android:layout_height="match_parent"
+						android:layout_width="2dp"
+						android:layout_alignParentStart="true"/>
+
+					<EditText
+						android:id="@+id/edit"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:ems="10"
+						android:gravity="center"
+						android:hint="@string/input_value"
+						android:fontFamily="sans-serif-light"
+						android:inputType="numberDecimal|numberSigned"
+						android:textColor="#296BF0"
+						android:background="@null"
+						android:layout_centerInParent="true"
+						android:textSize="28sp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginRight="4dp"/>
+
+					<View
+						android:id="@+id/vright"
+						android:background="#FF0078"
+						android:layout_height="match_parent"
+						android:layout_width="2dp"
+						android:layout_alignParentEnd="true"/>
+
+					<View
+						android:id="@+id/vbottom"
+						android:background="#FF0078"
+						android:layout_height="2dp"
+						android:layout_width="match_parent"
+						android:layout_alignParentBottom="true"
+						android:layout_marginTop="15dp"/>
+
+				</RelativeLayout>
+
+			</com.google.android.material.card.MaterialCardView>
+
+			<com.google.android.material.card.MaterialCardView
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:layout_marginLeft="@dimen/spacing_large"
+				android:layout_marginRight="@dimen/spacing_large"
+				android:background="@android:color/white"
+				app:cardCornerRadius="10dp"
+				app:cardElevation="5dp">
+
+				<Spinner
+					android:id="@+id/fromSpin"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:spinnerMode="dialog"
+					android:focusable="true"
+					android:fontFamily="sans-serif-condensed"
+					android:popupBackground="#489BA5"
+					android:layout_gravity="center"
+					android:padding="1dp"
+					android:background="#AA8E00"/>
+
+			</com.google.android.material.card.MaterialCardView>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_height="5dp"
+				android:layout_width="match_parent"
+				android:layout_margin="3dp"/>
+
+			<com.google.android.material.card.MaterialCardView
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:layout_marginLeft="@dimen/spacing_large"
+				android:layout_marginRight="@dimen/spacing_large"
+				android:background="@android:color/white"
+				app:cardCornerRadius="10dp"
+				app:cardElevation="5dp">
+
+				<Spinner
+					android:id="@+id/toSpin"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:spinnerMode="dialog"
+					android:focusable="true"
+					android:fontFamily="sans-serif-condensed"
+					android:popupBackground="#489BA5"
+					android:layout_gravity="center"
+					android:padding="1dp"
+					android:background="#AA8E00"/>
+
+			</com.google.android.material.card.MaterialCardView>
+
+			<com.google.android.material.button.MaterialButton
+				android:layout_height="60dp"
+				android:layout_width="match_parent"
+				android:text="@string/convert"
+				android:fontFamily="sans-serif-condensed"
+				android:layout_marginTop="55dp"
+				android:layout_marginLeft="@dimen/spacing_large"
+				android:layout_marginRight="@dimen/spacing_large"
+				android:id="@+id/btnConvert"
+				android:backgroundTint="@color/colorPrimary"
+				android:textColor="@color/white"
+				android:textSize="18sp"
+				app:cornerRadius="24dp"
+				app:elevation="3dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Creating arrays for the active and inactive dots-->
+    <array name="dotActive">
+        <item>@color/dotLightFirst</item>
+        <item>@color/dotLightSecond</item>
+        <item>@color/dotLightThird</item>
+        <item>@color/dotLightLast</item>
+    </array>
+
+    <array name="dotInactive">
+        <item>@color/dotDarkFirst</item>
+        <item>@color/dotDarkSecond</item>
+        <item>@color/dotDarkThird</item>
+        <item>@color/dotDarkLast</item>
+    </array>
+
+
+    <string-array name="area">
+        <item>Acre</item>
+        <item>Are</item>
+        <item>Barn</item>
+        <item>Board</item>
+        <item>Circular</item>
+        <item>Cuerda</item>
+        <item>Dunam</item>
+        <item>Guntha</item>
+        <item>Hectare</item>
+        <item>Hide</item>
+        <item>Ping</item>
+        <item>Shed</item>
+        <item>Square foot</item>
+        <item>Square inch</item>
+        <item>Square kilometre</item>
+        <item>Square metre</item>
+        <item>Square mile</item>
+        <item>Square yard</item>
+        <item>Stremma</item>
+        <item>Township</item>
+        <item>Yardland</item>
+    </string-array>
+
+
+    <string-array name="base">
+        <item>Base 2</item>
+        <item>Base 3</item>
+        <item>Base 4</item>
+        <item>Base 5</item>
+        <item>Base 6</item>
+        <item>Base 7</item>
+        <item>Base 8</item>
+        <item>Base 9</item>
+        <item>Base 10</item>
+        <item>Base 11</item>
+        <item>Base 12</item>
+        <item>Base 13</item>
+        <item>Base 14</item>
+        <item>Base 15</item>
+        <item>Base 16</item>
+        <item>Base 17</item>
+        <item>Base 18</item>
+        <item>Base 19</item>
+        <item>Base 20</item>
+        <item>Base 21</item>
+        <item>Base 22</item>
+        <item>Base 23</item>
+        <item>Base 24</item>
+        <item>Base 25</item>
+        <item>Base 26</item>
+        <item>Base 27</item>
+        <item>Base 28</item>
+        <item>Base 29</item>
+        <item>Base 30</item>
+        <item>Base 31</item>
+        <item>Base 32</item>
+        <item>Base 33</item>
+        <item>Base 34</item>
+        <item>Base 35</item>
+        <item>Base 36</item>
+    </string-array>
+
+
+    <string-array name="density">
+        <item>Gram per millilitre</item>
+        <item>Kilogram per cubic metre</item>
+        <item>Kilogram per litre</item>
+        <item>Ounce per cubic foot</item>
+        <item>Ounce per cubic inch</item>
+        <item>Ounce per gallon</item>
+        <item>Pound per cubic foot</item>
+        <item>Pound per cubic inch</item>
+        <item>Pound per gallon</item>
+        <item>Slug per cubic foot</item>
+    </string-array>
+
+    <string-array name="energy">
+        <item>Barrel of oil equivalent</item>
+        <item>British thermal unit</item>
+        <item>Calorie</item>
+        <item>Celsius heat unit</item>
+        <item>Cubic centimetre of atmosphere</item>
+        <item>Cubic foot of atmosphere</item>
+        <item>Cubic foot of natural gas</item>
+        <item>Cubic yard of atmosphere</item>
+        <item>Electronvolt</item>
+        <item>Erg</item>
+        <item>Foot pound force</item>
+        <item>Foot poundal</item>
+        <item>Gallon atmosphere</item>
+        <item>Hartree</item>
+        <item>Horsepower hour</item>
+        <item>Inch pound force</item>
+        <item>Joule</item>
+        <item>Kilocalorie</item>
+        <item>Kilogrammeter</item>
+        <item>Kilojoule</item>
+        <item>Kilowatt hour</item>
+        <item>Litre atmosphere</item>
+        <item>Quad</item>
+        <item>Rydberg</item>
+        <item>Therm EC</item>
+        <item>Therm US</item>
+        <item>Thermie</item>
+        <item>Ton of coal equivalent</item>
+        <item>Tonne of oil equivalent</item>
+        <item>Ton of TNT</item>
+        <item>Watthour</item>
+    </string-array>
+
+    <string-array name="flow">
+        <item>Cubic foot per minute</item>
+        <item>Cubic foot per second</item>
+        <item>Cubic inch per minute</item>
+        <item>Cubic inch per second</item>
+        <item>Cubic metre per second</item>
+        <item>Gallon per day</item>
+        <item>Gallon per hour</item>
+        <item>Gallon per minute</item>
+        <item>Litre per minute</item>
+    </string-array>
+
+    <string-array name="force">
+        <item>Atomic unit of force</item>
+        <item>Dyne</item>
+        <item>Grave force</item>
+        <item>Gravet force</item>
+        <item>Kilogram force</item>
+        <item>KiloNewton</item>
+        <item>Kilopond</item>
+        <item>Kip</item>
+        <item>Long ton force</item>
+        <item>MegaNewton</item>
+        <item>Milligrave force</item>
+        <item>Newton</item>
+        <item>Ounce force</item>
+        <item>Pound force</item>
+        <item>Poundal</item>
+        <item>Short ton force</item>
+        <item>Sthene</item>
+        <item>TonForceMetric</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>Actions per minute</item>
+        <item>Cycle per second</item>
+        <item>Degree per second</item>
+        <item>Hertz</item>
+        <item>Radian per second</item>
+        <item>Revolutions per minute</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Aͦngström</item>
+        <item>Astronomical unit</item>
+        <item>Attometre</item>
+        <item>Barleycorn</item>
+        <item>Bohr</item>
+        <item>Cable length</item>
+        <item>Chain</item>
+        <item>Cubit</item>
+        <item>Ell</item>
+        <item>Fathom</item>
+        <item>Femtometre</item>
+        <item>Fermi</item>
+        <item>Finger</item>
+        <item>Foot</item>
+        <item>French</item>
+        <item>Furlong</item>
+        <item>Hand</item>
+        <item>Inch</item>
+        <item>League</item>
+        <item>Light day</item>
+        <item>Light hour</item>
+        <item>Light minute</item>
+        <item>Light second</item>
+        <item>Light year</item>
+        <item>Line</item>
+        <item>Link</item>
+        <item>Metre</item>
+        <item>Mickey</item>
+        <item>Micrometre</item>
+        <item>Mil</item>
+        <item>Mile</item>
+        <item>Nail</item>
+        <item>Nanometre</item>
+        <item>Nautical league</item>
+        <item>Nautical mile</item>
+        <item>Pace</item>
+        <item>Palm</item>
+        <item>Parsec</item>
+        <item>Pica</item>
+        <item>Picometre</item>
+        <item>Point</item>
+        <item>Quarter</item>
+        <item>Rod</item>
+        <item>Rope</item>
+        <item>Shaku</item>
+        <item>Span</item>
+        <item>Spat</item>
+        <item>Stick</item>
+        <item>Toise</item>
+        <item>Twip</item>
+        <item>X unit</item>
+        <item>Yard</item>
+        <item>Yoctometre</item>
+        <item>Zeptometre</item>
+
+    </string-array>
+
+    <string-array name="mass">
+        <item>Atomic mass unit</item>
+        <item>Carat</item>
+        <item>Centigram</item>
+        <item>Decagram</item>
+        <item>Decigram</item>
+        <item>ElectronVolt</item>
+        <item>Gamma</item>
+        <item>Grain</item>
+        <item>Gram</item>
+        <item>Hectogram</item>
+        <item>Long hundred weight</item>
+        <item>Kilogram</item>
+        <item>LongTon</item>
+        <item>Megagram</item>
+        <item>MetricTonne</item>
+        <item>Microgram</item>
+        <item>Milligram</item>
+        <item>Mite</item>
+        <item>Ounce</item>
+        <item>PlanckMass</item>
+        <item>Poundal</item>
+        <item>Pound</item>
+        <item>PoundForce</item>
+        <item>Quintal</item>
+        <item>ShortTon</item>
+        <item>Slug</item>
+        <item>Stone</item>
+        <item>Short hundred weight</item>
+        <item>Talent</item>
+    </string-array>
+
+    <string-array name="power">
+        <item>Atmosphere cubic centimetre per minute</item>
+        <item>Atmosphere cubic centimetre per second</item>
+        <item>Atmosphere cubic foot per hour</item>
+        <item>Atmosphere cubic foot per minute</item>
+        <item>Atmosphere cubic foot per second</item>
+        <item>BTU per hour</item>
+        <item>BTU per minute</item>
+        <item>BTU per second</item>
+        <item>Calorie per second</item>
+        <item>Erg per second</item>
+        <item>Foot pound force per hour</item>
+        <item>Foot pound force per minute</item>
+        <item>Foot pound force per second</item>
+        <item>Horsepower</item>
+        <item>Kilowatt</item>
+        <item>Litre atmosphere per minute</item>
+        <item>Litre atmosphere per second</item>
+        <item>Litre micrometre of mercury per second</item>
+        <item>Lusec</item>
+        <item>Megawatt</item>
+        <item>Poncelet</item>
+        <item>Square foot equivalent direct radiation</item>
+        <item>Ton of air conditioning</item>
+        <item>Ton of refrigeration</item>
+        <item>Watt</item>
+    </string-array>
+
+    <string-array name="pressure">
+        <item>Atmosphere</item>
+        <item>Bar</item>
+        <item>Barye</item>
+        <item>Centimetre of mercury</item>
+        <item>Centimetre of water</item>
+        <item>Foot of mercury</item>
+        <item>Foot of water</item>
+        <item>Inch of mercury</item>
+        <item>Inch of water</item>
+        <item>Kilogram force per square millimetre</item>
+        <item>Kip per square inch</item>
+        <item>Long ton per square foot</item>
+        <item>Micrometre of mercury</item>
+        <item>Millimetre of mercury</item>
+        <item>Millimetre of water</item>
+        <item>Pascal</item>
+        <item>Pièze</item>
+        <item>Pound per square foot</item>
+        <item>Pound per square inch</item>
+        <item>Poundal per square foot</item>
+        <item>Short ton per square foot</item>
+        <item>Torr</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>Foot per hour</item>
+        <item>Foot per minute</item>
+        <item>Foot per second</item>
+        <item>Furlong per fortnight</item>
+        <item>Inch per hour</item>
+        <item>Inch per minute</item>
+        <item>Inch per second</item>
+        <item>Kilometre per hour</item>
+        <item>Knot</item>
+        <item>Mach number</item>
+        <item>Metre per second</item>
+        <item>Mile per hour</item>
+        <item>Mile per minute</item>
+        <item>Mile period second</item>
+        <item>Speed of light</item>
+        <item>Speed of sound</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Delisle</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Newton</item>
+        <item>Rankine</item>
+        <item>Réaumur</item>
+        <item>Regulo Gas Mark</item>
+        <item>Rømer</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Atomic unit of time</item>
+        <item>Callippic cycle</item>
+        <item>Century</item>
+        <item>Day</item>
+        <item>Decade</item>
+        <item>Fortnight</item>
+        <item>Helek</item>
+        <item>Hipparchic cycle</item>
+        <item>Hour</item>
+        <item>Jiffy</item>
+        <item>Ke</item>
+        <item>Lustre</item>
+        <item>Lustrum</item>
+        <item>Metonic cycle</item>
+        <item>Millennium</item>
+        <item>Milliday</item>
+        <item>Minute</item>
+        <item>Moment</item>
+        <item>Month</item>
+        <item>Octaeteris</item>
+        <item>Planck time</item>
+        <item>Second</item>
+        <item>Shake</item>
+        <item>Sigma</item>
+        <item>Sothic cycle</item>
+        <item>Svedberg</item>
+        <item>Week</item>
+        <item>Year</item>
+        <item>Leap Year</item>
+
+    </string-array>
+
+    <string-array name="viscosity">
+        <!--DYNAMIC-->
+        <item>Pascal-second</item>
+        <item>Poise</item>
+        <item>Pound per foot hour</item>
+        <item>Pound per foot second</item>
+        <item>Pound-force second per square foot</item>
+        <item>Pound-force second per square inch</item>
+
+        <!--KINEMATIC-->
+        <item>Square foot per second</item>
+        <item>Square metre per second</item>
+        <item>Stokes</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Atomic Mass Unit</item>
+        <item>Carat</item>
+        <item>Centigram</item>
+        <item>Decagram</item>
+        <item>Decigram</item>
+        <item>Electron Volt</item>
+        <item>Gamma</item>
+        <item>Grain</item>
+        <item>Hectogram</item>
+        <item>Kilogram</item>
+        <item>Megagram</item>
+        <item>Microgram</item>
+        <item>Milligram</item>
+        <item>Mite</item>
+        <item>Ounce</item>
+        <item>Poundal</item>
+        <item>Pounds</item>
+        <item>Pound-Force</item>
+        <item>Slug</item>
+        <item>Tonne</item>
+        <item>Talent</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Atomic Mass Unit</item>
+        <item>Carat</item>
+        <item>Centigram</item>
+        <item>Decagram</item>
+        <item>Decigram</item>
+        <item>Electron Volt</item>
+        <item>Gamma</item>
+        <item>Grain</item>
+        <item>Hectogram</item>
+        <item>Kilogram</item>
+        <item>Megagram</item>
+        <item>Microgram</item>
+        <item>Milligram</item>
+        <item>Mite</item>
+        <item>Ounce</item>
+        <item>Poundal</item>
+        <item>Pounds</item>
+        <item>Pound-Force</item>
+        <item>Slug</item>
+        <item>Tonne</item>
+        <item>Talent</item>
+    </string-array>
+
+
+</resources>
